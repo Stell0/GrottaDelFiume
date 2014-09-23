@@ -1,0 +1,37 @@
+encoding  utf-8
+       
+survey felicita_rinoceronte \
+-title "Grotta del Fiume - Sala della felicità - Ramo del Rinoceronte" \
+-declination [2014 2.85 degrees]      
+
+centerline
+    team "Michela Moretti" 
+    team "Stefano Cinti"
+    team "Andrea Alesi"
+    date 2014.09.20
+    units compass deg 
+    units clino deg  
+    calibrate compass 1 1    
+    
+    data normal compass  clino  length  from  to  #  note
+    213  0  4.4    INIZIO  2  #  sala felicità prima stalagmite h0,80
+    164  -2  4.45  2  3  #  inizio corridoio
+    227  -6  16.2  3  4  #  saletta1
+    214  -2  6.28  4  5  #  saletta2
+    175  -6  11.7  5  6  #  saletta3 inizio
+    216  -6  10.31  6  7  #  saletta3 fine
+    148  14  14.92  7  8  #  saletta4
+    175  6  8.07  8  9  #  Sala5 (è sala rosa, cazzo michela!!!)
+    172  17  23.87  9  10  #  sala5 bivio porte paradiso
+    35  -7  16.26  10  11  #  sopra la frana verso salanera
+    168  -14  21.94  11  12  #  Fine frana, inizio sala rionceronte
+    178  -24  5.42  12  13  #  inizio sala rinoceronte al capezzolo
+    167  -23  23.53  13  14  #  sotoo rinoceronte, un po piullà
+    22  12  12.71  14  15  #  fine rinoceronte sottofrana
+    114  26  15.92  15  16  #  in cima alla frana rinoceronte
+    149  6  23.16  16  17  #  ramo del rinoceronte, in fondo alla sala sotto la frana
+    160  -12  12.93  17  FINE  #  inizio strettoia, stalagmite bassa della colonna di stalagmiti
+
+    endcenterline
+endsurvey
+

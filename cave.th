@@ -1,0 +1,11 @@
+encoding  utf-8
+#input layout.th
+ 
+survey fiume -title "Grotta del Fiume"
+input inizio_felicita
+input felicita_rinoceronte
+
+centerline
+ equate FINE@inizio_felicita INIZIO@felicita_rinoceronte
+endcenterline
+endsurvey
