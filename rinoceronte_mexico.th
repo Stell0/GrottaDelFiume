@@ -1,0 +1,26 @@
+encoding  utf-8
+       
+survey rinoceronte_mexico \
+-title "Grotta del Fiume - Ramo del Rinoceronte - inizio ramo del Mexico" \
+-declination [2014 2.85 degrees]      
+
+	centerline
+    	team "Michela Moretti" 
+    	team "Stefano Fancello"
+    	team "Andrea Alesi"
+    	date 2014.09.28
+    	units compass deg 
+    	units clino deg  
+    	calibrate compass 1 1    
+    
+	    data normal \
+			compass clino   length  from  	to  		#  note
+			166		12		4.25	COLATA 	1		#	Stalattite rotta dopo contrapposizione 
+			123		5		4.08	1		2		#	Stalattite ciccia a dx colonna grossa 
+			146		-24		4.3		2		3		#	Stalagmite mozza
+			102		-5		13.08	3		4		#	Stanzetta 
+			171		3		16.92	4		5		#	Stalagmite 17 alta quanto michela 
+			196		-4		13.89	5		6		#	Stalagmite a dx del 48 celeste
+			111		1		1.7		6		P48		#	Punto 48 celeste 
+	endcenterline
+endsurvey

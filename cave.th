@@ -4,8 +4,11 @@ encoding  utf-8
 survey fiume -title "Grotta del Fiume"
 input inizio_felicita
 input felicita_rinoceronte
+input rinoceronte_mexico
 
 centerline
  equate FINE@inizio_felicita INIZIO@felicita_rinoceronte
+ equate FINE@felicita_rinoceronte COLATA@rinoceronte_mexico
 endcenterline
 endsurvey
+
