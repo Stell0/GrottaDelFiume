@@ -15,6 +15,7 @@ centerline
     units clino deg
     calibrate compass 1 1
 
+    station INIZIO "Ingresso Fiume" entrance 
     data normal compass clino length from to
     216 12 5.46 INIZIO 2 #                    
     143 -5 7.48 2 3 #                    
