@@ -1,0 +1,49 @@
+encoding  utf-8
+       
+survey mexico_congedante_basso \
+-title "Grotta del Fiume - Dalla base del pozzo del Mexico a base del pozzo del Congedante" \
+-declination [2014 2.85 degrees]      
+
+centerline
+    team "Rossella Crocianelli"
+    team "Michela Moretti" 
+    team "Andrea Alesi"
+    team "Stefano Fancello"
+    date 2014.10.13
+    units compass deg 
+    units clino deg  
+    calibrate compass 1 1    
+    
+    data normal\
+    compass  clino  length  from  to  #  note
+	332	-4	5.25	PX	2	#	Stalagmite inizio ramo
+	210	-23	4.91	2	3	#	
+	250	-1	3.44	3	4	#	Dente dall'alto
+	265	-21	6.59	4	5	#	Dente inizio traverso
+	222	-19	5.09	5	6	#	Fine traverso 
+	131	-2	3.02	6	7	#	Canino
+	232	7	7.12	7	8	#	Sporgenza sopra masso appoggiato
+	199	-11	2.47	8	9	#	
+	226	5	11.89	9	10	#	Freccia naturale su volta 
+	201	-17	5.29	10	11	#	Volta prima del pozzo 
+	251	-39	1.48	11	12	#	Stalattite sulla destra del pozzo senza punta
+	0	-90	7.65	12	P	#	Fondo pozzo 
+	222	-14	5.17	12	13	#	Prima della strettoia donne sinistra 
+	226	-20	2.42	13	14	#	Inizio strettoia delle donne sinistra 
+	250	-4	1.9		14	15	#	Dente sdentato fine strettoia
+	239	20	3.7		15	16	#	backshot. Orig 59 -20
+	135	20	2.81	16	17	#	
+	190	40	1.93	17	18	#	Strettoia 2
+	193	-7	2.43	18	19	#	
+	202	-26	15.07	19	20	#	
+	218	5	18.76	20	21	#	Stalagmite sotto colata a canne
+	213	11	15.84	21	PC	#	Stalagmite sotto Pozzo del Congedante
+	213	22	10.23	PC	23	#	18bianco
+	220	-32	7.33	23	24	#	Stalagmite con corno
+	185	23	3.96	24	25	#	Stalagmite Adiacente punto 2 rosso
+	231	-21	11.3	25	26	#	
+	211	5	5.72	26	27	#	
+	221	0	3.4		27	28	#	PuntoEX bianco
+    endcenterline
+endsurvey
+
