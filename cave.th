@@ -5,10 +5,12 @@ survey fiume -title "Grotta del Fiume"
 input inizio_felicita
 input felicita_rinoceronte
 input rinoceronte_mexico
+input rinoceronte_mexico_sec
 
 centerline
  equate FINE@inizio_felicita INIZIO@felicita_rinoceronte
  equate FINE@felicita_rinoceronte COLATA@rinoceronte_mexico
+ equate P48@rinoceronte_mexico P48@rinoceronte_mexico_sec
 endcenterline
 endsurvey
 

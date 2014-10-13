@@ -1,0 +1,39 @@
+encoding  utf-8
+       
+survey rinoceronte_mexico_sec \
+-title "Grotta del Fiume - Ramo del Rinoceronte - inizio ramo del Mexico parte 2" \
+-declination [2014 2.85 degrees]      
+
+  centerline
+      team "Michela Moretti" 
+      team "Andrea Alesi"
+      date 2014.10.05
+      units compass deg 
+      units clino deg  
+      calibrate compass 1 1    
+    
+      data normal \
+      compass clino   length  from    to      #  note
+      175  1  2.11  P48  2  #  concrezione alta vicino punto blu 48 a masso a destra appena dopo la concrezione
+      195  8  11.79  2  3  #  Punto 3 è sporgenza masso successivo (sempre sulla destra)
+      110  -4  10.09  3  4  #  Punto 4 è punto verde su volta (sinistra) in cima a frana prima della marmitta
+      169  -32  17.48  4  5  #  Punto 5 concrezione con “bozze” sotto stalagmite bianca vicino a marmitta
+      162  30  5.54  5  6  #  1 arancione su volta a sinistra della marmitta dei giganti
+      237  -19  9.63  6  7  #  cocrezione bassa, punto 17 arancione
+      149  0  2.31  7  8  #  stalagmite piccola prima del cobra sulla sinistra
+      212  -2  4.77  8  9  #  mozzicone stalagmite vicino colonnone
+      247  26  4.2  9  10  #  mozzicone stalagmite sulla destra vicino quella grande
+      208  37  6.33  10  11  #  stalagmite punta doppia con vaschetta alta ~1m
+      156  10  6.53  11  12  #  Stalagmite alta solitaria (con vicini due mozziconi)
+      183  2  6.91  12  13  #  Punto rosso su bivio messico (a sinistra)
+      211  6  9.36  12  14  #  cocrezione su bivio messico verso destra
+      261  -12  8.68  14  15  #  Masso in cima a franetta 
+      25  -23  7.31  15  PX  #  concrezione solitaria in fondo a frana
+      212  0  17.45  14  17  #  concrezione alta con 2-3 vicine piccole a destra
+      312  7  5.1  17  18  #  stalagmite sotto al pozzo messico
+      128  0  3.67  18  19  #  stalagmite piccola solitaria sulla destra
+      150  0  34.6  19  20  #  direzione fondo messico basso. Da eliminare in futuro, qui solo per indicare la direzione
+
+ endcenterline
+endsurvey
+
