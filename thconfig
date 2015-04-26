@@ -2,4 +2,5 @@ encoding  utf-8
 source cave.th
 
 export model -format survex -o build/grotta_del_fiume.3d
-export map -projection plan -o "build/grotta_del_fiume.pdf
+export map -projection plan -o build/grotta_del_fiume.pdf
+export survey-list -o build/grotta_del_fiume_stats.html
