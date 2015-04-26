@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>therion table output</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript">
+function xTree(node)
+{
+  var fsub = true;
+  var show = false;
+  var last = node.length;
+  var all = document.getElementsByTagName("tr");
+  for(i = 1; i < all.length; i++) {
+    if ((all[i].id.length > node.length) && (all[i].id.substr(0, node.length) == node)) {
+      if (fsub) {
+        fsub = false;
+        show = (all[i].style.display == "none");
+        last = all[i].id.lastIndexOf(".");
+      }
+      if (show) {
+        if (all[i].id.lastIndexOf(".") == last)
+        all[i].style.display = "";
+      } else {
+        all[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<style type="text/css">
+body {font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.5;}
+table {font-size:80%; border-spacing: 0px;}
+th {border-bottom:2px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:1px;}
+td {border-bottom:1px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:0px;}
+</style>
+</head>
+<body>
+<table>
+<tr><th align="left">Title</th><th align="right">Length</th><th align="right">Depth</th><th align="right">Explored</th><th align="right">Approx.</th><th align="right">Duplicate</th><th align="right">Surface</th><th align="right">Shots</th><th align="right">Stations</th></tr>
+<tr id="fiume"><td align="left" style="padding-left:+0"><a href="javascript:xTree('fiume')">Grotta del Fiume</a></td><td align="right">1391</td><td align="right">62</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">157</td><td align="right">164</td></tr>
+<tr id="fiume.inizio_felicita"><td align="left" style="padding-left:+12">Grotta del Fiume - Ingresso Fiume - Sala della felicità</td><td align="right">264</td><td align="right">29</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">30</td><td align="right">31</td></tr>
+<tr id="fiume.felicita_rinoceronte"><td align="left" style="padding-left:+12">Grotta del Fiume - Sala della felicità - Ramo del Rinoceronte</td><td align="right">270</td><td align="right">19</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">22</td><td align="right">23</td></tr>
+<tr id="fiume.rinoceronte_mexico"><td align="left" style="padding-left:+12">Grotta del Fiume - Ramo del Rinoceronte - inizio ramo del Mexico</td><td align="right">58</td><td align="right">3</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">7</td><td align="right">8</td></tr>
+<tr id="fiume.rinoceronte_mexico_sec"><td align="left" style="padding-left:+12">Grotta del Fiume - Ramo del Rinoceronte - inizio ramo del Mexico parte 2</td><td align="right">174</td><td align="right">11</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">19</td><td align="right">20</td></tr>
+<tr id="fiume.mexico_congedante_basso"><td align="left" style="padding-left:+12">Grotta del Fiume - Dalla base del pozzo del Mexico a base del pozzo del Congedante</td><td align="right">176</td><td align="right">15</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">28</td><td align="right">29</td></tr>
+<tr id="fiume.kamikaze_alti"><td align="left" style="padding-left:+12">Grotta del Fiume - Kamikaze alti</td><td align="right">128</td><td align="right">33</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">18</td><td align="right">19</td></tr>
+<tr id="fiume.mexico_sonora"><td align="left" style="padding-left:+12">Grotta del Fiume - dal Pozzo Mexico a Sala Sonora</td><td align="right">321</td><td align="right">39</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">33</td><td align="right">34</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+encoding  utf-8
+       
+survey mexico_sonora \
+-title "Grotta del Fiume - dal Pozzo Mexico a Sala Sonora" \
+-declination [2015 2.85 degrees]      
+
+centerline
+    team "Andrea Alesi"
+    team "Rossella Crocianelli"
+    team "Stefano Fancello"
+    date 2015.4.26
+    units compass deg 
+    units clino deg  
+    calibrate compass 1 1    
+    
+    data normal \
+    compass  clino  length  from  to  #  note
+	265	-7	1.66	PM	2	#	Mozzicon di stalagmite sotto il pozzo del Mexico
+	0	87	13.13	2	3	#	dente sopra frazionamento
+	229	53	5.7	3	4	#	concrezione cima second parte pozzo
+	162	13	5.76	4	5	#	stalagmite sotto meta traverso
+	179	-2	7.9	5	6	#	
+	176	16	7.46	6	7	#	
+	136	-12	7.19	7	8	#	stalagmite inizio passaggio basso
+	125	2	6.29	8	9	#	fine passaggio basso
+	150	16	5.27	9	10	#	cima colonna in mezzo
+	164	2	8.61	10	11	#	colonna
+	151	3	4.32	11	12	#	coppia di Stalag 15 cm
+	175	36	2.7	12	13	#	stalagmite
+	173	14	7.02	13	14	#	stalagmite 1.5m a destra inizio sala
+	159	32	6.44	14	15	#	Punto di rilievo “2” arancione
+	162	-12	6.6	15	16	#	
+	159	-12	4.83	16	17	#	
+	0	90	12.43	16	S	#	Soffitto della sala
+	140	-2	18.53	17	18	#	satlagmite doppia svolta Maracaibo
+	151	-5	10.88	18	19	#	Stalagmite piccola su stalagmite grande (alta 4m)
+	169	-13	5.53	18	19d	#	inizio ramo Desperado
+	185	13	13.72	19d	20d	#	cima stalagmite tripla tra 2 colonne
+	205	-5	1.4	20d	21d	#	colonna fratturata. Battuta su frattura
+	147	-16	9.18	19	20	#	cima stalagmite
+	154	-2	18.45	20	21	#	Stalagmite davanti colonna bianchissima
+	142	-2	9.45	21	22	#	Stalagmite sulla dx
+	151	13	7.97	22	23	#	Punto di rilievo “12” rosso
+	170	4	5.94	23	24	#	
+	145	5	28.3	24	25	#	inizio Sala Sonora
+	203	-5	20.35	25	26	#	piu alta di gruppo di 3 stalagmiti (con puntino arancione) tra la via per Sala Villa e pozzo della Mulecca
+	62	1	21.97	26	27	#	parete sinistra
+	105	6	13.9	26	28	#	parete opposta ingresso
+	144	-6	18.05	25	29	#	“x” arancione con 2 frecce
+	95	12	4.35	25	30	#	“3” scritto a matia con puntino, inizio sala sonora sulla sinistra
+
+    endcenterline
+    endsurvey
+

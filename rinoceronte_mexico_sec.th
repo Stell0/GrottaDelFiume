@@ -30,8 +30,8 @@ survey rinoceronte_mexico_sec \
       261  -12  8.68  14  15  #  Masso in cima a franetta 
       25  -23  7.31  15  PX  #  concrezione solitaria in fondo a frana
       212  0  17.45  14  17  #  concrezione alta con 2-3 vicine piccole a destra
-      312  7  5.1  17  18  #  stalagmite sotto al pozzo messico
-      128  0  3.67  18  19  #  stalagmite piccola solitaria sulla destra
+      312  7  5.1  17  PM  #  stalagmite sotto al pozzo messico
+      128  0  3.67  PM  19  #  stalagmite piccola solitaria sulla destra
       150  0  34.6  19  20  #  direzione fondo messico basso. Da eliminare in futuro, qui solo per indicare la direzione
 
  endcenterline
