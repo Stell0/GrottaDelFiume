@@ -9,6 +9,7 @@ input rinoceronte_mexico_sec
 input mexico_congedante_basso
 input kamikaze_alti
 input mexico_sonora
+input mexico_2001
 
 centerline
  equate FINE@inizio_felicita INIZIO@felicita_rinoceronte
@@ -16,7 +17,8 @@ centerline
  equate P48@rinoceronte_mexico P48@rinoceronte_mexico_sec
  equate PX@rinoceronte_mexico_sec PX@mexico_congedante_basso
  equate PM@rinoceronte_mexico_sec PM@mexico_sonora
- equate 4@rinoceronte_mexico_sec PV@kamikaze_alti 
+ equate 4@rinoceronte_mexico_sec PV@kamikaze_alti
+ equate PM@mexico_sonora PM@mexico_2001
 endcenterline
 endsurvey
 
