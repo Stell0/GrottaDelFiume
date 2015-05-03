@@ -27,13 +27,6 @@ centerline
     350 -9 2.2 8 9 # Backshot                   
     198 30 15.15 9 10 # Centro stanza                  
     236 5 0.83 10 11 # Pistellino                   
-    27 0 12.61 11 S1 #                    
-    15 0 8.26 11 S2 #                    
-    348 0 6.5 11 S3 #                    
-    340 0 10.8 11 S4 #                    
-    295 0 5.38 11 S5 #                    
-    225 -12 18.26 11 S6 # Verso l v                 
-    188 0 9.02 11 S7 #                    
     153 11 10.13 11 12 #                    
     116 -12 17.9 12 13 #                    
     120 11 6.66 13 14 #                    
@@ -47,7 +40,16 @@ centerline
     122 26 4.73 21 22 # Tarlo                   
     147 7 2.74 22 23 #                    
     91 -15 6.43 23 FINE # Stalagmite al centro della felicità (alta 80 cm)
+    station FINE "Sala della Felicità"
 
+  flags surface
+  27 0 12.61 11 S1 #                    
+    15 0 8.26 11 S2 #                    
+    348 0 6.5 11 S3 #                    
+    340 0 10.8 11 S4 #                    
+    295 0 5.38 11 S5 #                    
+    225 -12 18.26 11 S6 # Verso l v                 
+    188 0 9.02 11 S7 #                    
     endcenterline
 endsurvey
 
