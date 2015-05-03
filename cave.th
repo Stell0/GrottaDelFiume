@@ -10,6 +10,7 @@ input mexico_congedante_basso
 input kamikaze_alti
 input mexico_sonora
 input mexico_2001
+input kamikaze
 
 centerline
  equate FINE@inizio_felicita INIZIO@felicita_rinoceronte
@@ -19,6 +20,7 @@ centerline
  equate PM@rinoceronte_mexico_sec PM@mexico_sonora
  equate 4@rinoceronte_mexico_sec PV@kamikaze_alti
  equate PM@mexico_sonora PM@mexico_2001
+ equate 12@rinoceronte_mexico_sec 1@kamikaze
 endcenterline
 endsurvey
 
