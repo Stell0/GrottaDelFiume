@@ -18,7 +18,7 @@ Nella cartella build https://github.com/Stell0/GrottaDelFiume/tree/master/build 
 Collabora
 ==========
 
-Puoi aggiungere i tuoi rilievi, verificare quelli già pubblicati o migliorare layout e commenti. Se non conosci Therion, contattaci su Facebook https://www.facebook.com/Gruppo-Speleologico-CAI-Jesi-162788430554556 e saremo lieti di condividere con te le nostre (poche) conoscenze.
+Puoi aggiungere i tuoi rilievi, verificare quelli già pubblicati o migliorare layout e commenti. Se non conosci Therion, contattaci su Facebook https://www.facebook.com/pages/Gruppo-Speleologico-CAI-Jesi/162788430554556 e saremo lieti di condividere con te le nostre (poche) conoscenze.
 
 
 Gruppo Speleo CAI Jesi
